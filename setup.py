@@ -25,11 +25,11 @@ setuptools.setup(
     ]
   },
   install_requires=[
-    'pysqlite3',
+    'pysqlite3-wheels',
     'sqlalchemy'
   ],
   tests_require=[
-    'pysqlite3',
+    'pysqlite3-wheels',
     'sqlalchemy',
     'pytest'
   ]
